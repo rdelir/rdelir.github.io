@@ -1,88 +1,167 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Raul DeLira | Portfolio</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Raul De Lira | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
-    <div class="off-canvas-wrapper">
-      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/headshot.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey"></p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://github.com/rdelir" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/rdelir/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
 
-        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
-          <div class="row column">
-            <br>
-            <!-- <img class="thumbnail" img src="images/Me.jpg"> -->
-            <h5>Raul De Lira</h5>
-            <p>I'm currently an Information Systems major at LSU due to graduate by Fall 2022. I have basic understanding of HTML and CSS. Currently learning Python and SQL. I am bilingual, speaking English and Spanish fluently.</p>
-          </div>
-        </div>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-        <div class="off-canvas-content" data-off-canvas-content>
-          <div class="title-bar hide-for-large">
-            <div class="title-bar-left">
-              <button class="menu-icon" type="button" data-open="my-info"></button>
-              <span class="title-bar-title">Raul De Lira</span>
-            </div>
-          </div>
-          <div class="callout primary">
-            <div class="row column">
-              <h1>Hello! Welcome to My Portfolio.</h1>
-              <p class="lead">My name is Raul De Lira. I decided on a career in ISDS because it feels like a good balance between two of my interests, business and technology.</p>
-            </div>
-          </div>
-          <div class="row small-up-2 medium-up-3 large-up-4">
-            <div class="column">
-              <img class="thumbnail" src="images/first_project.png">
-              <a href="https://rauldelira.info"><h5>Portfolio</h5></a>
-              <p>This website</p>
-            </div>
-              <div class="column">
-                </a><img class="thumbnail" src="images/apex_logo.png"/>
-                <a href="https://boiling-temple-11953.herokuapp.com/"><h5>Apex Randomizer</h5></a>
-                <p>Web App project inspired by personal interest </p>
-              </div>
-            
-          </div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
 
-          <hr>
-
-          <div class="row">
-            <div class="medium-6 columns">
-              <h3>Contact Me</h3>
-              <p> </p>
-              <ul class="menu">
-                <li><a href="https://www.linkedin.com/in/rdelir">Linkedin</a></li>
-                <li><a href="https://github.com/rdelir">GitHub</a></li>
-              </ul>
-            </div>
-            <div class="medium-6 columns">
-              <label>Name
-                <input type="text" placeholder="Name">
-              </label>
-              <label>Email
-                <input type="text" placeholder="Email">
-              </label>
-              <label>
-                Message
-                <textarea placeholder="Message"></textarea>
-              </label>
-              <input type="submit" class="button expanded" value="Out of Order">
-            </div>
-          </div>
-        </div>
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        <a href="" target="_blank"><p><b>Portfolio Site</b></p></a>
+        <p>Portfolio website was made with showcasing future projects in mind. Built on from a template and further expanded on.</p>
       </div>
     </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        <a href="https://boiling-temple-11953.herokuapp.com/" target="_blank"><p><b>Apex Randomizer</b></p></a>
+        <p>Began as a personal project. It randomizes choices in the video game Apex Legends to provide new experinces by changing they way you usually play.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        <p><b>Tee Time App (In Development)</b></p>
+        <p>This is a project for ISDS 4113 Project Managment. We are developing an app with the goal of locating open Tee times at nearby Golf Courses.</p>
+      </div>
+    </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+  </div>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="images/headshot.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>My name is Raul De Lira. I decided on a career in ISDS because it feels like a good balance between two of my interests, business and technology.</p>
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Photography</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>Web Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Photoshop</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <a href="resume.pdf" target="_blank"><i class="fa fa-file-text w3-margin-right"></i>Resume</a>
+      </button>
+    </p>
+    <hr>
+
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>rdelir1@lsu.edu</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Baton Rouge, LA</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>(504)641-0218</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+    <div class="w3-row-padding">
+      <div class="w3-third">
+  </footer>
+  
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
 </html>
-
-
-
